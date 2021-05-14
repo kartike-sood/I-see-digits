@@ -23,7 +23,7 @@ x_train, y_train = train_data.iloc[ : , 1 : ], train_data.iloc[ : , 0]
 some_digit = np.array([x_train.iloc[301, :]])
 img = some_digit.reshape(28, 28)
 
-''' We have not used %matplotlib inline here because we are running this project in VS Code which will display a black figure in a separate window. Had it been Jupyter notebook we should have used it essentially '''
+''' We have not used %matplotlib inline here because we are running this project in VS Code which will display a block figure in a separate window. Had it been Jupyter notebook we should have used it essentially '''
 # %matplotlib inline
 
 ''' This statement converts a 2D numpy array into an image '''
