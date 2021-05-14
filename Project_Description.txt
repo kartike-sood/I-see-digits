@@ -1,0 +1,5 @@
+Project Description:
+
+This is a fairly simple project of Machine Learning which allows the user
+to enter a number 'X' and a picture(of 28 * 28 pixels) which contains
+a digit[from 0 to 9] and then and tells the user whether the picture is 'X' or not.
